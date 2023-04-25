@@ -1,0 +1,239 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-image: url(https://www.digitaltrends.com/wp-content/uploads/2020/03/apple-macbook-pro-16-ry-14.jpg?fit=720%2C720&p=1);
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-top: -15px;
+}
+
+#navi {
+    text-align: center;
+}
+
+.header-list li a {
+    color: rgb(177, 255, 239);
+    text-decoration-line: none;
+    margin-left: 50px;
+}
+
+.header-list li {
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    font-weight: 380px;
+    font-size: 30px;
+}
+
+.header-list li :hover {
+    color: rgb(43, 231, 216);
+}
+
+.name {
+    font-family: serif;
+    font-style: normal;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(247, 90, 0);
+    margin-top: 50px;
+
+}
+
+.symbols {
+    text-align: center;
+}
+
+.symbols li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.symbols li a i {
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.symbols li a i:hover {
+    box-shadow: 0px 0px 10px 6px rgb(202, 202, 202);
+    ;
+    border-radius: 30px;
+}
+
+#image {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-top: -29vh;
+    border-radius: 100px 100px;
+    box-shadow: 0px 0px 10px 6px rgb(133, 127, 127);
+}
+
+#about-me {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color: rgb(52, 135, 138);
+    text-align: justify;
+    margin: 5px 200px;
+    font-style: italic;
+}
+
+.heading-div {
+    color: darkblue;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.heading-div p {
+    display: inline;
+}
+
+#outer-div {
+    text-align: center;
+    height: 15rem;
+    height: 18rem;
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+#skill-outer {
+    height: 2.7rem;
+    width: 10rem;
+    border: 2px solid black;
+    margin: 40px 70px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#skill-inner1 {
+    padding: 4px;
+    width: 7rem;
+    height: 2.2rem;
+    background-color: orange;
+    text-align: center;
+    border-radius: 18px 0px 0px 18px;
+}
+
+#skill-inner2 {
+    padding: 4px;
+    width: 7.9rem;
+    height: 2.2rem;
+    background-color: red;
+    text-align: center;
+    border-radius: 18px 0px 0px 18px;
+}
+
+#skill-inner3 {
+    padding: 4px;
+    width: 7rem;
+    height: 2.2rem;
+    background-color: darkgreen;
+    text-align: center;
+    border-radius: 18px 0px 0px 18px;
+}
+
+#skill-inner4 {
+    padding: 4px;
+    width: 7rem;
+    height: 2.2rem;
+    background-color: darkblue;
+    text-align: center;
+    border-radius: 18px 0px 0px 18px;
+}
+
+#skill-inner5 {
+    padding: 4px;
+    width: 5rem;
+    height: 2.2rem;
+    background-color: grey;
+    text-align: center;
+    border-radius: 18px 0px 0px 18px;
+}
+
+#skill-inner6 {
+    padding: 4px;
+    width: 4.5rem;
+    height: 2.2rem;
+    background-color: violet;
+    text-align: center;
+    border-radius: 18px 0px 0px 18px;
+}
+
+.skill-inner p {
+    margin: 4px 4px 4px 4px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+#education {
+    display: flex;
+    flex-direction: unset;
+}
+
+.edu {
+    text-align: center;
+}
+
+.outeredu-div {
+    width: 88%;
+    height: 60rem;
+    background-image: linear-gradient(to top right, whitesmoke, rgb(169, 238, 243));
+    margin: auto;
+}
+
+.inneredu-div {
+    width: 40%;
+    height: 13rem;
+    border: 2px solid rgb(114, 99, 99);
+    margin-left: 4%;
+    background-color: whitesmoke;
+}
+
+.inneredu-div:nth-child(2n) {
+    margin-left: 55%;
+}
+
+#highschool {
+    padding: 5px;
+    margin: 2px;
+}
+
+#highschool h2 {
+    color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 15px;
+}
+
+#highschool p span {
+    color: darkblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+#highschool p {
+    color: rgb(11, 139, 161);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#time-line {
+    border: 2px darkblue dashed;
+    height: 92%;
+    position: absolute;
+    width: 0px;
+    margin-top: -750px;
+    left: 50%;
+}
